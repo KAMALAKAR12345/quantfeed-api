@@ -32,5 +32,5 @@ The FastAPI application serves the following routes:
 ## 💻 Local Setup & Execution
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/quantfeed-api.git](https://github.com/yourusername/quantfeed-api.git)
+   git clone [https://github.com/KAMALAKAR12345/quantfeed-api.git](https://github.com/KAMALAKAR12345/quantfeed-api.git)
    cd quantfeed-api
