@@ -1,4 +1,7 @@
 # QuantFeed: Algorithmic Trading API & BI Dashboard
+
+[![Hire Me on Upwork](https://img.shields.io/badge/Upwork-Hire_Me-14a800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01d8800839ca08d4e3?mp_source=share)
+
 ![QuantFeed Dashboard](dashboard.png)
 ![SSwagger UI Documentation](swagger-docs.png)
 
