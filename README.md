@@ -5,16 +5,16 @@
 ![QuantFeed Dashboard](dashboard.png)
 ![SSwagger UI Documentation](swagger-docs.png)
 
-## 📌 Project Overview
+## Project Overview
 QuantFeed is a full-stack financial data pipeline designed for algorithmic trading analysis. It features a custom Python/FastAPI backend that fetches live and historical market data, computes technical indicators (SMA, RSI) on the fly, and streams structured JSON to a Power BI frontend. The dashboard utilizes custom DAX models to generate automated BUY/SELL/HOLD signals based on momentum and trend-following strategies.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Backend:** Python, FastAPI, Uvicorn
 * **Data Processing:** Pandas, yfinance
 * **Frontend/BI:** Power BI, Power Query, DAX
 * **Architecture:** RESTful API, JSON Webhooks
 
-## 📊 Dashboard & Quantitative Logic
+## Dashboard & Quantitative Logic
 The Power BI interface ingests historical timeseries data directly from the local API endpoint. It features:
 1. **Trend Analysis:** Dual-line chart mapping daily closing prices against a 20-day Simple Moving Average (SMA).
 2. **Momentum Oscillator:** 14-period Relative Strength Index (RSI) with static overbought (70) and oversold (30) reference bands.
@@ -22,7 +22,7 @@ The Power BI interface ingests historical timeseries data directly from the loca
    * **STRONG BUY:** Price > 20 SMA & RSI < 30
    * **STRONG SELL:** Price < 20 SMA & RSI > 70
 
-## 🚀 API Endpoints
+## API Endpoints
 The FastAPI application serves the following routes:
 
 * `GET /api/v1/quote/{ticker}`
@@ -34,7 +34,7 @@ The FastAPI application serves the following routes:
 * `POST /api/v1/webhook/signal`
   Ingests automated signals from external platforms (e.g., TradingView), validates risk limits, and prepares execution payloads.
 
-## 💻 Local Setup & Execution
+## Local Setup & Execution
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/KAMALAKAR12345/quantfeed-api.git](https://github.com/KAMALAKAR12345/quantfeed-api.git)
