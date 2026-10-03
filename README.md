@@ -1,5 +1,6 @@
 # QuantFeed: Algorithmic Trading API & BI Dashboard
 ![QuantFeed Dashboard](dashboard.png)
+![SSwagger UI Documentation](swagger-docs.png)
 
 ## 📌 Project Overview
 QuantFeed is a full-stack financial data pipeline designed for algorithmic trading analysis. It features a custom Python/FastAPI backend that fetches live and historical market data, computes technical indicators (SMA, RSI) on the fly, and streams structured JSON to a Power BI frontend. The dashboard utilizes custom DAX models to generate automated BUY/SELL/HOLD signals based on momentum and trend-following strategies.
